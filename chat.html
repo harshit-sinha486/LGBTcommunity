@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hi").delay(500).animate({left:'575px'});
+        });
+    </script>
+</head>
+<body>
+    <script src="index.js">
+        </script>
+           
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.jpg" alt="logo" style="width:40px;">
+    </a>
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="link1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="chat.html" id="link2">GoLive</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html" id="link3">AboutUs</a>
+      </li>
+    </ul>
+  </nav>
+  
+        <div style="height:300px; "class=" bg-primary text-white font-italic"><br><br><br><br><br><p id ="hi"style="font-size: 60px;position:absolute;" class="w3-animate-opacity">How's your day?<br</p><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tell us</div>
+        <ul id="myUL"class="list-group list-group-flush">
+        <!-- <li class="list-group-item"><blockquote class="blockquote"><p>Don't ever be afraid to show off your true colours.</p></blockquote></li> -->
+        <li class="list-group-item"><blockquote class="blockquote"><p>"Openness may not completely disarm prejudice, but it's a good place to start."</p>
+            <footer class="blockquote-footer">Jason Collins, first openly gay athlete in U.S. pro sports</footer></blockquote></li>
+        <li class="list-group-item"><blockquote class="blockquote"><p>"When all Americans are treated as equal, no matter who they are or whom they love, we are all more free."</p><footer class="blockquote-footer">Barack Obama</footer></blockquote></li>
+        <li class="list-group-item"><blockquote class="blockquote"><p>"I hate the word homophobia. It's not a phobia. You're not scared. You're an asshole."</p><footer class="blockquote-footer">Morgan Freeman</footer></blockquote></li>
+        </ul>
+    <div style="text-align:center;">
+        <input class="text-center" style="width: 1000px; height: 100px;"type="text" id="myInput" placeholder="Write your Story...">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" class="btn btn-outline-primary" onclick="addnew()">Post</button>
+    </div>
+    <br>
+    <br>
+</body>
+</html>
